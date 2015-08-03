@@ -47,6 +47,8 @@ git config --global push.default simple
 git config --list
 
 mkdir ~/repo_git
+mkdir ~/zztemp
+
 cd ~/repo_git
 git clone https://github.com/pnuskgh/Initialize.git
 cd Initialize
