@@ -66,6 +66,8 @@ echo "chmod 0600 ~/.ssh/id_rsa"
 echo " "
 echo "cd ~/repo_git"
 echo "git clone ssh://pnuskgh@gerrit.osscloud.biz:29418/jopenbusiness"
+echo "cd jopenbusiness"
+echo "scp -p -P 29418 consult@gerrit.osscloud.biz:hooks/commit-msg .git/hooks/"
 echo " "
 
 ### ================================================================================================
