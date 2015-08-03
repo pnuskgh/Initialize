@@ -65,7 +65,7 @@ echo "   pnuskgh 사용자의 private key를 등록 합니다."
 echo "chmod 0600 ~/.ssh/id_rsa"
 echo " "
 echo "cd ~/repo_git"
-echo "git clone ssh://consult@gerrit.osscloud.biz:29418/jopenbusiness"
+echo "git clone ssh://pnuskgh@gerrit.osscloud.biz:29418/jopenbusiness"
 echo " "
 
 ### ================================================================================================
